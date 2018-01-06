@@ -8,11 +8,11 @@
 // Full documentation of the API implemented by this package is maintained in a
 // language-agnostic document:
 //
-//   https://github.com/btcsuite/btcwallet/blob/master/rpc/documentation/api.md
+//   https://github.com/devwarrior777/xzcwallet/blob/master/rpc/documentation/api.md
 //
 // Any API changes must be performed according to the steps listed here:
 //
-//   https://github.com/btcsuite/btcwallet/blob/master/rpc/documentation/serverchanges.md
+//   https://github.com/devwarrior777/xzcwallet/blob/master/rpc/documentation/serverchanges.md
 package rpcserver
 
 import (
@@ -25,20 +25,19 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcrpcclient"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/internal/cfgutil"
-	"github.com/btcsuite/btcwallet/internal/zero"
-	"github.com/btcsuite/btcwallet/netparams"
-	pb "github.com/btcsuite/btcwallet/rpc/walletrpc"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/devwarrior777/xzcd/chaincfg/chainhash"
+	"github.com/devwarrior777/xzcd/txscript"
+	"github.com/devwarrior777/xzcd/wire"
+	xzcutil "github.com/devwarrior777/xzcutil"
+	"github.com/devwarrior777/xzcutil/hdkeychain"
+	"github.com/devwarrior777/xzcwallet/chain"
+	"github.com/devwarrior777/xzcwallet/internal/cfgutil"
+	"github.com/devwarrior777/xzcwallet/internal/zero"
+	"github.com/devwarrior777/xzcwallet/netparams"
+	pb "github.com/devwarrior777/xzcwallet/rpc/walletrpc"
+	"github.com/devwarrior777/xzcwallet/waddrmgr"
+	"github.com/devwarrior777/xzcwallet/wallet"
+	"github.com/devwarrior777/xzcwallet/walletdb"
 )
 
 // Public API version constants
@@ -226,7 +225,7 @@ func (s *walletServer) NextAddress(ctx context.Context, req *pb.NextAddressReque
 	*pb.NextAddressResponse, error) {
 
 	var (
-		addr btcutil.Address
+		addr xzcutil.Address
 		err  error
 	)
 	switch req.Kind {
@@ -249,7 +248,7 @@ func (s *walletServer) ImportPrivateKey(ctx context.Context, req *pb.ImportPriva
 
 	defer zero.Bytes(req.Passphrase)
 
-	wif, err := btcutil.DecodeWIF(req.PrivateKeyWif)
+	wif, err := xzcutil.DecodeWIF(req.PrivateKeyWif)
 	if err != nil {
 		return nil, grpc.Errorf(codes.InvalidArgument,
 			"Invalid WIF-encoded private key: %v", err)
@@ -333,7 +332,7 @@ func (s *walletServer) FundTransaction(ctx context.Context, req *pb.FundTransact
 	}
 
 	selectedOutputs := make([]*pb.FundTransactionResponse_PreviousOutput, 0, len(outputs))
-	var totalAmount btcutil.Amount
+	var totalAmount xzcutil.Amount
 	for i := range outputs {
 		output := &outputs[i]
 
@@ -372,14 +371,14 @@ func (s *walletServer) FundTransaction(ctx context.Context, req *pb.FundTransact
 		})
 		totalAmount += output.Amount
 
-		if req.TargetAmount != 0 && totalAmount > btcutil.Amount(req.TargetAmount) {
+		if req.TargetAmount != 0 && totalAmount > xzcutil.Amount(req.TargetAmount) {
 			break
 		}
 
 	}
 
 	var changeScript []byte
-	if req.IncludeChangeScript && totalAmount > btcutil.Amount(req.TargetAmount) {
+	if req.IncludeChangeScript && totalAmount > xzcutil.Amount(req.TargetAmount) {
 		changeAddr, err := s.wallet.NewChangeAddress(req.Account)
 		if err != nil {
 			return nil, translateError(err)

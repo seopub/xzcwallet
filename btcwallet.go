@@ -13,9 +13,9 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/rpc/legacyrpc"
-	"github.com/btcsuite/btcwallet/wallet"
+	"github.com/devwarrior777/xzcwallet/chain"
+	"github.com/devwarrior777/xzcwallet/rpc/legacyrpc"
+	"github.com/devwarrior777/xzcwallet/wallet"
 )
 
 var (

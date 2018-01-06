@@ -11,10 +11,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb"
+	"github.com/devwarrior777/xzcd/chaincfg"
+	"github.com/devwarrior777/xzcwallet/waddrmgr"
+	"github.com/devwarrior777/xzcwallet/walletdb"
+	_ "github.com/devwarrior777/xzcwallet/walletdb/bdb"
 )
 
 var (

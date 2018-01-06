@@ -10,15 +10,15 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/walletdb"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb"
+	xzcutil "github.com/devwarrior777/xzcutil"
+	"github.com/devwarrior777/xzcwallet/walletdb"
+	_ "github.com/devwarrior777/xzcwallet/walletdb/bdb"
 	"github.com/jessevdk/go-flags"
 )
 
 const defaultNet = "mainnet"
 
-var datadir = btcutil.AppDataDir("btcwallet", false)
+var datadir = xzcutil.AppDataDir("btcwallet", false)
 
 // Flags.
 var opts = struct {

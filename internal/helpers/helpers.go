@@ -7,14 +7,14 @@
 package helpers
 
 import (
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/devwarrior777/xzcd/wire"
+	xzcutil "github.com/devwarrior777/xzcutil"
 )
 
 // SumOutputValues sums up the list of TxOuts and returns an Amount.
-func SumOutputValues(outputs []*wire.TxOut) (totalOutput btcutil.Amount) {
+func SumOutputValues(outputs []*wire.TxOut) (totalOutput xzcutil.Amount) {
 	for _, txOut := range outputs {
-		totalOutput += btcutil.Amount(txOut.Value)
+		totalOutput += xzcutil.Amount(txOut.Value)
 	}
 	return totalOutput
 }

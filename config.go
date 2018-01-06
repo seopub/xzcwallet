@@ -14,11 +14,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/internal/cfgutil"
-	"github.com/btcsuite/btcwallet/internal/legacy/keystore"
-	"github.com/btcsuite/btcwallet/netparams"
-	"github.com/btcsuite/btcwallet/wallet"
+	xzcutil "github.com/devwarrior777/xzcutil"
+	"github.com/devwarrior777/xzcwallet/internal/cfgutil"
+	"github.com/devwarrior777/xzcwallet/internal/legacy/keystore"
+	"github.com/devwarrior777/xzcwallet/netparams"
+	"github.com/devwarrior777/xzcwallet/wallet"
 	flags "github.com/jessevdk/go-flags"
 )
 
@@ -35,8 +35,8 @@ const (
 )
 
 var (
-	btcdDefaultCAFile  = filepath.Join(btcutil.AppDataDir("btcd", false), "rpc.cert")
-	defaultAppDataDir  = btcutil.AppDataDir("btcwallet", false)
+	btcdDefaultCAFile  = filepath.Join(xzcutil.AppDataDir("btcd", false), "rpc.cert")
+	defaultAppDataDir  = xzcutil.AppDataDir("btcwallet", false)
 	defaultConfigFile  = filepath.Join(defaultAppDataDir, defaultConfigFilename)
 	defaultRPCKeyFile  = filepath.Join(defaultAppDataDir, "rpc.key")
 	defaultRPCCertFile = filepath.Join(defaultAppDataDir, "rpc.cert")

@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcsuite developers
+// Copyright (c) 2013-2017 The devwarrior777/xzcelopers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,12 +10,11 @@ import (
 	"path/filepath"
 
 	"github.com/btcsuite/btclog"
-	"github.com/btcsuite/btcrpcclient"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/rpc/legacyrpc"
-	"github.com/btcsuite/btcwallet/rpc/rpcserver"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/devwarrior777/xzcwallet/chain"
+	"github.com/devwarrior777/xzcwallet/rpc/legacyrpc"
+	"github.com/devwarrior777/xzcwallet/rpc/rpcserver"
+	"github.com/devwarrior777/xzcwallet/wallet"
+	"github.com/devwarrior777/xzcwallet/wtxmgr"
 	"github.com/jrick/logrotate/rotator"
 )
 

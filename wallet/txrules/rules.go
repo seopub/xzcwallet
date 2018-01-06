@@ -9,18 +9,18 @@ package txrules
 import (
 	"errors"
 
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/devwarrior777/xzcd/txscript"
+	"github.com/devwarrior777/xzcd/wire"
+	"github.com/devwarrior777/xzcutil"
 )
 
 // DefaultRelayFeePerKb is the default minimum relay fee policy for a mempool.
-const DefaultRelayFeePerKb btcutil.Amount = 1e3
+const DefaultRelayFeePerKb xzcutil.Amount = 1e3
 
 // IsDustAmount determines whether a transaction output value and script length would
 // cause the output to be considered dust.  Transactions with dust outputs are
 // not standard and are rejected by mempools with default policies.
-func IsDustAmount(amount btcutil.Amount, scriptSize int, relayFeePerKb btcutil.Amount) bool {
+func IsDustAmount(amount xzcutil.Amount, scriptSize int, relayFeePerKb xzcutil.Amount) bool {
 	// Calculate the total (estimated) cost to the network.  This is
 	// calculated using the serialize size of the output plus the serial
 	// size of a transaction input which redeems it.  The output is assumed
@@ -38,7 +38,7 @@ func IsDustAmount(amount btcutil.Amount, scriptSize int, relayFeePerKb btcutil.A
 // IsDustOutput determines whether a transaction output is considered dust.
 // Transactions with dust outputs are not standard and are rejected by mempools
 // with default policies.
-func IsDustOutput(output *wire.TxOut, relayFeePerKb btcutil.Amount) bool {
+func IsDustOutput(output *wire.TxOut, relayFeePerKb xzcutil.Amount) bool {
 	// Unspendable outputs which solely carry data are not checked for dust.
 	if txscript.GetScriptClass(output.PkScript) == txscript.NullDataTy {
 		return false
@@ -49,7 +49,7 @@ func IsDustOutput(output *wire.TxOut, relayFeePerKb btcutil.Amount) bool {
 		return true
 	}
 
-	return IsDustAmount(btcutil.Amount(output.Value), len(output.PkScript),
+	return IsDustAmount(xzcutil.Amount(output.Value), len(output.PkScript),
 		relayFeePerKb)
 }
 
@@ -62,11 +62,11 @@ var (
 
 // CheckOutput performs simple consensus and policy tests on a transaction
 // output.
-func CheckOutput(output *wire.TxOut, relayFeePerKb btcutil.Amount) error {
+func CheckOutput(output *wire.TxOut, relayFeePerKb xzcutil.Amount) error {
 	if output.Value < 0 {
 		return ErrAmountNegative
 	}
-	if output.Value > btcutil.MaxSatoshi {
+	if output.Value > xzcutil.MaxSatoshi {
 		return ErrAmountExceedsMax
 	}
 	if IsDustOutput(output, relayFeePerKb) {
@@ -77,15 +77,15 @@ func CheckOutput(output *wire.TxOut, relayFeePerKb btcutil.Amount) error {
 
 // FeeForSerializeSize calculates the required fee for a transaction of some
 // arbitrary size given a mempool's relay fee policy.
-func FeeForSerializeSize(relayFeePerKb btcutil.Amount, txSerializeSize int) btcutil.Amount {
-	fee := relayFeePerKb * btcutil.Amount(txSerializeSize) / 1000
+func FeeForSerializeSize(relayFeePerKb xzcutil.Amount, txSerializeSize int) xzcutil.Amount {
+	fee := relayFeePerKb * xzcutil.Amount(txSerializeSize) / 1000
 
 	if fee == 0 && relayFeePerKb > 0 {
 		fee = relayFeePerKb
 	}
 
-	if fee < 0 || fee > btcutil.MaxSatoshi {
-		fee = btcutil.MaxSatoshi
+	if fee < 0 || fee > xzcutil.MaxSatoshi {
+		fee = xzcutil.MaxSatoshi
 	}
 
 	return fee
