@@ -9,13 +9,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/devwarrior777/xzcd/btcjson"
-	"github.com/devwarrior777/xzcd/chaincfg"
-	"github.com/devwarrior777/xzcd/chaincfg/chainhash"
-	"github.com/devwarrior777/xzcd/rpcclient"
-	"github.com/devwarrior777/xzcutil"
-	"github.com/devwarrior777/xzcwallet/waddrmgr"
-	"github.com/devwarrior777/xzcwallet/wtxmgr"
+	"github.com/zcoinofficial/xzcd/btcjson"
+	"github.com/zcoinofficial/xzcd/chaincfg"
+	"github.com/zcoinofficial/xzcd/chaincfg/chainhash"
+	"github.com/zcoinofficial/xzcd/rpcclient"
+	"github.com/zcoinofficial/xzcutil"
+	"github.com/zcoinofficial/xzcwallet/waddrmgr"
+	"github.com/zcoinofficial/xzcwallet/wtxmgr"
 )
 
 // RPCClient represents a persistent client connection to a bitcoin RPC server

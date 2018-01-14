@@ -5,11 +5,11 @@
 package wallet
 
 import (
-	"github.com/devwarrior777/xzcd/wire"
-	xzcutil "github.com/devwarrior777/xzcutil"
-	"github.com/devwarrior777/xzcwallet/chain"
-	"github.com/devwarrior777/xzcwallet/waddrmgr"
-	"github.com/devwarrior777/xzcwallet/wtxmgr"
+	"github.com/zcoinofficial/xzcd/wire"
+	xzcutil "github.com/zcoinofficial/xzcutil"
+	"github.com/zcoinofficial/xzcwallet/chain"
+	"github.com/zcoinofficial/xzcwallet/waddrmgr"
+	"github.com/zcoinofficial/xzcwallet/wtxmgr"
 )
 
 // RescanProgressMsg reports the current progress made by a rescan for a

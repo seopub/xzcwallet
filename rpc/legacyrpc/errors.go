@@ -7,7 +7,7 @@ package legacyrpc
 import (
 	"errors"
 
-	"github.com/devwarrior777/xzcd/btcjson"
+	"github.com/zcoinofficial/xzcd/btcjson"
 )
 
 // TODO(jrick): There are several error paths which 'replace' various errors

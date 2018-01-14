@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/devwarrior777/xzcutil/hdkeychain"
+	"github.com/zcoinofficial/xzcutil/hdkeychain"
 )
 
 var (

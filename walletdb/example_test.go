@@ -10,8 +10,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/devwarrior777/xzcwallet/walletdb"
-	_ "github.com/devwarrior777/xzcwallet/walletdb/bdb"
+	"github.com/zcoinofficial/xzcwallet/walletdb"
+	_ "github.com/zcoinofficial/xzcwallet/walletdb/bdb"
 )
 
 // This example demonstrates creating a new database.

@@ -14,7 +14,7 @@ package waddrmgr
 import (
 	"errors"
 
-	"github.com/devwarrior777/xzcwallet/snacl"
+	"github.com/zcoinofficial/xzcwallet/snacl"
 )
 
 // TstMaxRecentHashes makes the unexported maxRecentHashes constant available

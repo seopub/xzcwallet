@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/devwarrior777/xzcd/txscript"
-	xzcutil "github.com/devwarrior777/xzcutil"
-	"github.com/devwarrior777/xzcutil/hdkeychain"
-	"github.com/devwarrior777/xzcwallet/internal/zero"
-	"github.com/devwarrior777/xzcwallet/waddrmgr"
-	"github.com/devwarrior777/xzcwallet/walletdb"
+	"github.com/zcoinofficial/xzcd/txscript"
+	xzcutil "github.com/zcoinofficial/xzcutil"
+	"github.com/zcoinofficial/xzcutil/hdkeychain"
+	"github.com/zcoinofficial/xzcwallet/internal/zero"
+	"github.com/zcoinofficial/xzcwallet/waddrmgr"
+	"github.com/zcoinofficial/xzcwallet/walletdb"
 )
 
 const (

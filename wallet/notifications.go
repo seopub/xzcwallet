@@ -8,12 +8,12 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/devwarrior777/xzcd/chaincfg/chainhash"
-	"github.com/devwarrior777/xzcd/txscript"
-	"github.com/devwarrior777/xzcd/wire"
-	xzcutil "github.com/devwarrior777/xzcutil"
-	"github.com/devwarrior777/xzcwallet/waddrmgr"
-	"github.com/devwarrior777/xzcwallet/wtxmgr"
+	"github.com/zcoinofficial/xzcd/chaincfg/chainhash"
+	"github.com/zcoinofficial/xzcd/txscript"
+	"github.com/zcoinofficial/xzcd/wire"
+	xzcutil "github.com/zcoinofficial/xzcutil"
+	"github.com/zcoinofficial/xzcwallet/waddrmgr"
+	"github.com/zcoinofficial/xzcwallet/wtxmgr"
 )
 
 // TODO: It would be good to send errors during notification creation to the rpc

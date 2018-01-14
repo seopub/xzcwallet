@@ -14,11 +14,11 @@ import (
 	"sort"
 	"strings"
 
-	xzcutil "github.com/devwarrior777/xzcutil"
-	"github.com/devwarrior777/xzcwallet/internal/cfgutil"
-	"github.com/devwarrior777/xzcwallet/internal/legacy/keystore"
-	"github.com/devwarrior777/xzcwallet/netparams"
-	"github.com/devwarrior777/xzcwallet/wallet"
+	xzcutil "github.com/zcoinofficial/xzcutil"
+	"github.com/zcoinofficial/xzcwallet/internal/cfgutil"
+	"github.com/zcoinofficial/xzcwallet/internal/legacy/keystore"
+	"github.com/zcoinofficial/xzcwallet/netparams"
+	"github.com/zcoinofficial/xzcwallet/wallet"
 	flags "github.com/jessevdk/go-flags"
 )
 

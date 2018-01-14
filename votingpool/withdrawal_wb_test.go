@@ -10,14 +10,14 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/devwarrior777/xzcd/chaincfg"
-	"github.com/devwarrior777/xzcd/txscript"
-	"github.com/devwarrior777/xzcd/wire"
-	xzcutil "github.com/devwarrior777/xzcutil"
-	"github.com/devwarrior777/xzcutil/hdkeychain"
-	"github.com/devwarrior777/xzcwallet/waddrmgr"
-	"github.com/devwarrior777/xzcwallet/walletdb"
-	"github.com/devwarrior777/xzcwallet/wtxmgr"
+	"github.com/zcoinofficial/xzcd/chaincfg"
+	"github.com/zcoinofficial/xzcd/txscript"
+	"github.com/zcoinofficial/xzcd/wire"
+	xzcutil "github.com/zcoinofficial/xzcutil"
+	"github.com/zcoinofficial/xzcutil/hdkeychain"
+	"github.com/zcoinofficial/xzcwallet/waddrmgr"
+	"github.com/zcoinofficial/xzcwallet/walletdb"
+	"github.com/zcoinofficial/xzcwallet/wtxmgr"
 )
 
 // TestOutputSplittingNotEnoughInputs checks that an output will get split if we

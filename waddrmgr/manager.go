@@ -10,14 +10,14 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/devwarrior777/xzcd/btcec"
-	"github.com/devwarrior777/xzcd/chaincfg"
-	"github.com/devwarrior777/xzcd/chaincfg/chainhash"
-	xzcutil "github.com/devwarrior777/xzcutil"
-	"github.com/devwarrior777/xzcutil/hdkeychain"
-	"github.com/devwarrior777/xzcwallet/internal/zero"
-	"github.com/devwarrior777/xzcwallet/snacl"
-	"github.com/devwarrior777/xzcwallet/walletdb"
+	"github.com/zcoinofficial/xzcd/btcec"
+	"github.com/zcoinofficial/xzcd/chaincfg"
+	"github.com/zcoinofficial/xzcd/chaincfg/chainhash"
+	xzcutil "github.com/zcoinofficial/xzcutil"
+	"github.com/zcoinofficial/xzcutil/hdkeychain"
+	"github.com/zcoinofficial/xzcwallet/internal/zero"
+	"github.com/zcoinofficial/xzcwallet/snacl"
+	"github.com/zcoinofficial/xzcwallet/walletdb"
 )
 
 const (

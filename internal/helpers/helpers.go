@@ -7,8 +7,8 @@
 package helpers
 
 import (
-	"github.com/devwarrior777/xzcd/wire"
-	xzcutil "github.com/devwarrior777/xzcutil"
+	"github.com/zcoinofficial/xzcd/wire"
+	xzcutil "github.com/zcoinofficial/xzcutil"
 )
 
 // SumOutputValues sums up the list of TxOuts and returns an Amount.

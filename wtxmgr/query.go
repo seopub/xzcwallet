@@ -7,9 +7,9 @@ package wtxmgr
 import (
 	"fmt"
 
-	"github.com/devwarrior777/xzcd/chaincfg/chainhash"
-	xzcutil "github.com/devwarrior777/xzcutil"
-	"github.com/devwarrior777/xzcwallet/walletdb"
+	"github.com/zcoinofficial/xzcd/chaincfg/chainhash"
+	xzcutil "github.com/zcoinofficial/xzcutil"
+	"github.com/zcoinofficial/xzcwallet/walletdb"
 )
 
 // CreditRecord contains metadata regarding a transaction credit for a known

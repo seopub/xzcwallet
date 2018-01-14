@@ -13,13 +13,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/devwarrior777/xzcd/chaincfg"
-	"github.com/devwarrior777/xzcd/chaincfg/chainhash"
-	"github.com/devwarrior777/xzcd/wire"
-	xzcutil "github.com/devwarrior777/xzcutil"
-	"github.com/devwarrior777/xzcwallet/walletdb"
-	_ "github.com/devwarrior777/xzcwallet/walletdb/bdb"
-	. "github.com/devwarrior777/xzcwallet/wtxmgr"
+	"github.com/zcoinofficial/xzcd/chaincfg"
+	"github.com/zcoinofficial/xzcd/chaincfg/chainhash"
+	"github.com/zcoinofficial/xzcd/wire"
+	xzcutil "github.com/zcoinofficial/xzcutil"
+	"github.com/zcoinofficial/xzcwallet/walletdb"
+	_ "github.com/zcoinofficial/xzcwallet/walletdb/bdb"
+	. "github.com/zcoinofficial/xzcwallet/wtxmgr"
 )
 
 // Received transaction output for mainnet outpoint

@@ -13,8 +13,8 @@ import (
 	"strings"
 
 	"github.com/btcsuite/golangcrypto/ssh/terminal"
-	"github.com/devwarrior777/xzcutil/hdkeychain"
-	"github.com/devwarrior777/xzcwallet/internal/legacy/keystore"
+	"github.com/zcoinofficial/xzcutil/hdkeychain"
+	"github.com/zcoinofficial/xzcwallet/internal/legacy/keystore"
 )
 
 // ProvideSeed is used to prompt for the wallet seed which maybe required during

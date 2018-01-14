@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btclog"
-	"github.com/devwarrior777/xzcwallet/waddrmgr"
+	"github.com/zcoinofficial/xzcwallet/waddrmgr"
 )
 
 func init() {

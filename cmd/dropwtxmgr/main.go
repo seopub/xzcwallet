@@ -10,9 +10,9 @@ import (
 	"os"
 	"path/filepath"
 
-	xzcutil "github.com/devwarrior777/xzcutil"
-	"github.com/devwarrior777/xzcwallet/walletdb"
-	_ "github.com/devwarrior777/xzcwallet/walletdb/bdb"
+	xzcutil "github.com/zcoinofficial/xzcutil"
+	"github.com/zcoinofficial/xzcwallet/walletdb"
+	_ "github.com/zcoinofficial/xzcwallet/walletdb/bdb"
 	"github.com/jessevdk/go-flags"
 )
 

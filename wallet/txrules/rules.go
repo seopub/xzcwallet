@@ -9,9 +9,9 @@ package txrules
 import (
 	"errors"
 
-	"github.com/devwarrior777/xzcd/txscript"
-	"github.com/devwarrior777/xzcd/wire"
-	"github.com/devwarrior777/xzcutil"
+	"github.com/zcoinofficial/xzcd/txscript"
+	"github.com/zcoinofficial/xzcd/wire"
+	"github.com/zcoinofficial/xzcutil"
 )
 
 // DefaultRelayFeePerKb is the default minimum relay fee policy for a mempool.

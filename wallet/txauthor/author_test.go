@@ -7,12 +7,12 @@ package txauthor_test
 import (
 	"testing"
 
-	"github.com/devwarrior777/xzcd/wire"
-	xzcutil "github.com/devwarrior777/xzcutil"
-	. "github.com/devwarrior777/xzcwallet/wallet/txauthor"
-	"github.com/devwarrior777/xzcwallet/wallet/txrules"
+	"github.com/zcoinofficial/xzcd/wire"
+	xzcutil "github.com/zcoinofficial/xzcutil"
+	. "github.com/zcoinofficial/xzcwallet/wallet/txauthor"
+	"github.com/zcoinofficial/xzcwallet/wallet/txrules"
 
-	"github.com/devwarrior777/xzcwallet/wallet/internal/txsizes"
+	"github.com/zcoinofficial/xzcwallet/wallet/internal/txsizes"
 )
 
 func p2pkhOutputs(amounts ...xzcutil.Amount) []*wire.TxOut {

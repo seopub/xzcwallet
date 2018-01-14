@@ -3,8 +3,8 @@ package txsizes_test
 import (
 	"testing"
 
-	"github.com/devwarrior777/xzcd/wire"
-	. "github.com/devwarrior777/xzcwallet/wallet/internal/txsizes"
+	"github.com/zcoinofficial/xzcd/wire"
+	. "github.com/zcoinofficial/xzcwallet/wallet/internal/txsizes"
 )
 
 const (

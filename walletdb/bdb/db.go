@@ -9,7 +9,7 @@ import (
 	"os"
 
 	"github.com/boltdb/bolt"
-	"github.com/devwarrior777/xzcwallet/walletdb"
+	"github.com/zcoinofficial/xzcwallet/walletdb"
 )
 
 // convertErr converts some bolt errors to the equivalent walletdb error.

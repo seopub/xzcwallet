@@ -8,9 +8,9 @@ import (
 	"bytes"
 	"testing"
 
-	xzcutil "github.com/devwarrior777/xzcutil"
-	"github.com/devwarrior777/xzcutil/hdkeychain"
-	vp "github.com/devwarrior777/xzcwallet/votingpool"
+	xzcutil "github.com/zcoinofficial/xzcutil"
+	"github.com/zcoinofficial/xzcutil/hdkeychain"
+	vp "github.com/zcoinofficial/xzcwallet/votingpool"
 )
 
 func TestStartWithdrawal(t *testing.T) {

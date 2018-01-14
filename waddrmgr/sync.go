@@ -7,8 +7,8 @@ package waddrmgr
 import (
 	"sync"
 
-	"github.com/devwarrior777/xzcd/chaincfg/chainhash"
-	"github.com/devwarrior777/xzcwallet/walletdb"
+	"github.com/zcoinofficial/xzcd/chaincfg/chainhash"
+	"github.com/zcoinofficial/xzcwallet/walletdb"
 )
 
 const (
