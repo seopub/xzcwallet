@@ -27,15 +27,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zcoinofficial/xzcd/chaincfg"
-	"github.com/zcoinofficial/xzcd/chaincfg/chainhash"
-	"github.com/zcoinofficial/xzcd/txscript"
-	"github.com/zcoinofficial/xzcd/wire"
-	xzcutil "github.com/zcoinofficial/xzcutil"
-	"github.com/zcoinofficial/xzcutil/hdkeychain"
-	"github.com/zcoinofficial/xzcwallet/waddrmgr"
-	"github.com/zcoinofficial/xzcwallet/walletdb"
-	"github.com/zcoinofficial/xzcwallet/wtxmgr"
+	"github.com/seopub/xzcd/chaincfg"
+	"github.com/seopub/xzcd/chaincfg/chainhash"
+	"github.com/seopub/xzcd/txscript"
+	"github.com/seopub/xzcd/wire"
+	xzcutil "github.com/seopub/xzcutil"
+	"github.com/seopub/xzcutil/hdkeychain"
+	"github.com/seopub/xzcwallet/waddrmgr"
+	"github.com/seopub/xzcwallet/walletdb"
+	"github.com/seopub/xzcwallet/wtxmgr"
 )
 
 var (

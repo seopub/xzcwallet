@@ -10,11 +10,11 @@ import (
 	"encoding/gob"
 	"fmt"
 
-	"github.com/zcoinofficial/xzcd/txscript"
-	"github.com/zcoinofficial/xzcd/wire"
-	xzcutil "github.com/zcoinofficial/xzcutil"
-	"github.com/zcoinofficial/xzcwallet/snacl"
-	"github.com/zcoinofficial/xzcwallet/walletdb"
+	"github.com/seopub/xzcd/txscript"
+	"github.com/seopub/xzcd/wire"
+	xzcutil "github.com/seopub/xzcutil"
+	"github.com/seopub/xzcwallet/snacl"
+	"github.com/seopub/xzcwallet/walletdb"
 )
 
 // These constants define the serialized length for a given encrypted extended

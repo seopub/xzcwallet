@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/zcoinofficial/xzcd/btcec"
-	"github.com/zcoinofficial/xzcd/txscript"
-	"github.com/zcoinofficial/xzcd/wire"
-	xzcutil "github.com/zcoinofficial/xzcutil"
-	"github.com/zcoinofficial/xzcwallet/waddrmgr"
-	"github.com/zcoinofficial/xzcwallet/wallet/txauthor"
-	"github.com/zcoinofficial/xzcwallet/wtxmgr"
+	"github.com/seopub/xzcd/btcec"
+	"github.com/seopub/xzcd/txscript"
+	"github.com/seopub/xzcd/wire"
+	xzcutil "github.com/seopub/xzcutil"
+	"github.com/seopub/xzcwallet/waddrmgr"
+	"github.com/seopub/xzcwallet/wallet/txauthor"
+	"github.com/seopub/xzcwallet/wtxmgr"
 )
 
 // byAmount defines the methods needed to satisify sort.Interface to

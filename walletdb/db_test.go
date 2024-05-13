@@ -9,8 +9,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/zcoinofficial/xzcwallet/walletdb"
-	_ "github.com/zcoinofficial/xzcwallet/walletdb/bdb"
+	"github.com/seopub/xzcwallet/walletdb"
+	_ "github.com/seopub/xzcwallet/walletdb/bdb"
 )
 
 var (

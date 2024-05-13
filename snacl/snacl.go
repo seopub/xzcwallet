@@ -15,7 +15,7 @@ import (
 
 	"github.com/btcsuite/golangcrypto/nacl/secretbox"
 	"github.com/btcsuite/golangcrypto/scrypt"
-	"github.com/zcoinofficial/xzcwallet/internal/zero"
+	"github.com/seopub/xzcwallet/internal/zero"
 )
 
 var (

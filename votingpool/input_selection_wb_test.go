@@ -10,10 +10,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/zcoinofficial/xzcd/chaincfg/chainhash"
-	"github.com/zcoinofficial/xzcd/wire"
-	"github.com/zcoinofficial/xzcutil"
-	"github.com/zcoinofficial/xzcwallet/wtxmgr"
+	"github.com/seopub/xzcd/chaincfg/chainhash"
+	"github.com/seopub/xzcd/wire"
+	"github.com/seopub/xzcutil"
+	"github.com/seopub/xzcwallet/wtxmgr"
 )
 
 var (

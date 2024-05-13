@@ -10,16 +10,16 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/zcoinofficial/xzcd/btcec"
-	"github.com/zcoinofficial/xzcd/chaincfg"
-	"github.com/zcoinofficial/xzcd/wire"
-	xzcutil "github.com/zcoinofficial/xzcutil"
-	"github.com/zcoinofficial/xzcwallet/internal/legacy/keystore"
-	"github.com/zcoinofficial/xzcwallet/internal/prompt"
-	"github.com/zcoinofficial/xzcwallet/waddrmgr"
-	"github.com/zcoinofficial/xzcwallet/wallet"
-	"github.com/zcoinofficial/xzcwallet/walletdb"
-	_ "github.com/zcoinofficial/xzcwallet/walletdb/bdb"
+	"github.com/seopub/xzcd/btcec"
+	"github.com/seopub/xzcd/chaincfg"
+	"github.com/seopub/xzcd/wire"
+	xzcutil "github.com/seopub/xzcutil"
+	"github.com/seopub/xzcwallet/internal/legacy/keystore"
+	"github.com/seopub/xzcwallet/internal/prompt"
+	"github.com/seopub/xzcwallet/waddrmgr"
+	"github.com/seopub/xzcwallet/wallet"
+	"github.com/seopub/xzcwallet/walletdb"
+	_ "github.com/seopub/xzcwallet/walletdb/bdb"
 )
 
 // networkDir returns the directory name of a network directory to hold wallet

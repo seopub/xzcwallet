@@ -23,14 +23,14 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/zcoinofficial/xzcd/chaincfg"
-	"github.com/zcoinofficial/xzcd/txscript"
-	xzcutil "github.com/zcoinofficial/xzcutil"
-	"github.com/zcoinofficial/xzcwallet/votingpool"
-	"github.com/zcoinofficial/xzcwallet/waddrmgr"
-	"github.com/zcoinofficial/xzcwallet/walletdb"
-	_ "github.com/zcoinofficial/xzcwallet/walletdb/bdb"
-	"github.com/zcoinofficial/xzcwallet/wtxmgr"
+	"github.com/seopub/xzcd/chaincfg"
+	"github.com/seopub/xzcd/txscript"
+	xzcutil "github.com/seopub/xzcutil"
+	"github.com/seopub/xzcwallet/votingpool"
+	"github.com/seopub/xzcwallet/waddrmgr"
+	"github.com/seopub/xzcwallet/walletdb"
+	_ "github.com/seopub/xzcwallet/walletdb/bdb"
+	"github.com/seopub/xzcwallet/wtxmgr"
 )
 
 var (

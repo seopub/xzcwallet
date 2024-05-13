@@ -8,14 +8,14 @@ package txauthor
 import (
 	"errors"
 
-	"github.com/zcoinofficial/xzcd/chaincfg"
-	"github.com/zcoinofficial/xzcd/txscript"
-	"github.com/zcoinofficial/xzcd/wire"
-	xzcutil "github.com/zcoinofficial/xzcutil"
-	"github.com/zcoinofficial/xzcwallet/wallet/txrules"
+	"github.com/seopub/xzcd/chaincfg"
+	"github.com/seopub/xzcd/txscript"
+	"github.com/seopub/xzcd/wire"
+	xzcutil "github.com/seopub/xzcutil"
+	"github.com/seopub/xzcwallet/wallet/txrules"
 
-	h "github.com/zcoinofficial/xzcwallet/internal/helpers"
-	"github.com/zcoinofficial/xzcwallet/wallet/internal/txsizes"
+	h "github.com/seopub/xzcwallet/internal/helpers"
+	"github.com/seopub/xzcwallet/wallet/internal/txsizes"
 )
 
 // InputSource provides transaction inputs referencing spendable outputs to

@@ -5,9 +5,9 @@
 package wtxmgr
 
 import (
-	"github.com/zcoinofficial/xzcd/chaincfg/chainhash"
-	"github.com/zcoinofficial/xzcd/wire"
-	"github.com/zcoinofficial/xzcwallet/walletdb"
+	"github.com/seopub/xzcd/chaincfg/chainhash"
+	"github.com/seopub/xzcd/wire"
+	"github.com/seopub/xzcwallet/walletdb"
 )
 
 // insertMemPoolTx inserts the unmined transaction record.  It also marks

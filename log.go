@@ -10,11 +10,11 @@ import (
 	"path/filepath"
 
 	"github.com/btcsuite/btclog"
-	"github.com/zcoinofficial/xzcwallet/chain"
-	"github.com/zcoinofficial/xzcwallet/rpc/legacyrpc"
-	"github.com/zcoinofficial/xzcwallet/rpc/rpcserver"
-	"github.com/zcoinofficial/xzcwallet/wallet"
-	"github.com/zcoinofficial/xzcwallet/wtxmgr"
+	"github.com/seopub/xzcwallet/chain"
+	"github.com/seopub/xzcwallet/rpc/legacyrpc"
+	"github.com/seopub/xzcwallet/rpc/rpcserver"
+	"github.com/seopub/xzcwallet/wallet"
+	"github.com/seopub/xzcwallet/wtxmgr"
 	"github.com/jrick/logrotate/rotator"
 )
 

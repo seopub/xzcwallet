@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/zcoinofficial/xzcutil/hdkeychain"
-	"github.com/zcoinofficial/xzcwallet/waddrmgr"
+	"github.com/seopub/xzcutil/hdkeychain"
+	"github.com/seopub/xzcwallet/waddrmgr"
 )
 
 func TestPoolEnsureUsedAddr(t *testing.T) {

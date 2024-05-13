@@ -4,7 +4,7 @@
 
 package netparams
 
-import "github.com/zcoinofficial/xzcd/chaincfg"
+import "github.com/seopub/xzcd/chaincfg"
 
 // Params is used to group parameters for various networks such as the main
 // network and test networks.

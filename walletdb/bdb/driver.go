@@ -7,7 +7,7 @@ package bdb
 import (
 	"fmt"
 
-	"github.com/zcoinofficial/xzcwallet/walletdb"
+	"github.com/seopub/xzcwallet/walletdb"
 )
 
 const (

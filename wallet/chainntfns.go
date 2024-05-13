@@ -5,10 +5,10 @@
 package wallet
 
 import (
-	"github.com/zcoinofficial/xzcd/txscript"
-	"github.com/zcoinofficial/xzcwallet/chain"
-	"github.com/zcoinofficial/xzcwallet/waddrmgr"
-	"github.com/zcoinofficial/xzcwallet/wtxmgr"
+	"github.com/seopub/xzcd/txscript"
+	"github.com/seopub/xzcwallet/chain"
+	"github.com/seopub/xzcwallet/waddrmgr"
+	"github.com/seopub/xzcwallet/wtxmgr"
 )
 
 func (w *Wallet) handleChainNotifications() {

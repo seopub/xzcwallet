@@ -23,13 +23,13 @@ import (
 	"time"
 
 	"github.com/btcsuite/golangcrypto/ripemd160"
-	"github.com/zcoinofficial/xzcd/btcec"
-	"github.com/zcoinofficial/xzcd/chaincfg"
-	"github.com/zcoinofficial/xzcd/chaincfg/chainhash"
-	"github.com/zcoinofficial/xzcd/txscript"
-	"github.com/zcoinofficial/xzcd/wire"
-	xzcutil "github.com/zcoinofficial/xzcutil"
-	"github.com/zcoinofficial/xzcwallet/internal/legacy/rename"
+	"github.com/seopub/xzcd/btcec"
+	"github.com/seopub/xzcd/chaincfg"
+	"github.com/seopub/xzcd/chaincfg/chainhash"
+	"github.com/seopub/xzcd/txscript"
+	"github.com/seopub/xzcd/wire"
+	xzcutil "github.com/seopub/xzcutil"
+	"github.com/seopub/xzcwallet/internal/legacy/rename"
 )
 
 const (

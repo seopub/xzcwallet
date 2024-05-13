@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	xzcutil "github.com/zcoinofficial/xzcutil"
+	xzcutil "github.com/seopub/xzcutil"
 )
 
 // AmountFlag embeds a xzcutil.Amount and implements the flags.Marshaler and

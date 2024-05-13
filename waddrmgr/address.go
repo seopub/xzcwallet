@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/zcoinofficial/xzcd/btcec"
-	xzcutil "github.com/zcoinofficial/xzcutil"
-	"github.com/zcoinofficial/xzcutil/hdkeychain"
-	"github.com/zcoinofficial/xzcwallet/internal/zero"
+	"github.com/seopub/xzcd/btcec"
+	xzcutil "github.com/seopub/xzcutil"
+	"github.com/seopub/xzcutil/hdkeychain"
+	"github.com/seopub/xzcwallet/internal/zero"
 )
 
 // ManagedAddress is an interface that provides acces to information regarding

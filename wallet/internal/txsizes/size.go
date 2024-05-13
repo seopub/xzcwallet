@@ -5,9 +5,9 @@
 package txsizes
 
 import (
-	"github.com/zcoinofficial/xzcd/wire"
+	"github.com/seopub/xzcd/wire"
 
-	h "github.com/zcoinofficial/xzcwallet/internal/helpers"
+	h "github.com/seopub/xzcwallet/internal/helpers"
 )
 
 // Worst case script and input/output size estimates.

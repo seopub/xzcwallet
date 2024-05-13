@@ -16,10 +16,10 @@ import (
 	"strings"
 	"time"
 
-	xzcutil "github.com/zcoinofficial/xzcutil"
-	"github.com/zcoinofficial/xzcwallet/rpc/legacyrpc"
-	"github.com/zcoinofficial/xzcwallet/rpc/rpcserver"
-	"github.com/zcoinofficial/xzcwallet/wallet"
+	xzcutil "github.com/seopub/xzcutil"
+	"github.com/seopub/xzcwallet/rpc/legacyrpc"
+	"github.com/seopub/xzcwallet/rpc/rpcserver"
+	"github.com/seopub/xzcwallet/wallet"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

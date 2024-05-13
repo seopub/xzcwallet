@@ -4,7 +4,7 @@
 
 package wtxmgr
 
-import "github.com/zcoinofficial/xzcd/chaincfg/chainhash"
+import "github.com/seopub/xzcd/chaincfg/chainhash"
 
 type graphNode struct {
 	value    *TxRecord

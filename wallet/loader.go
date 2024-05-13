@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/zcoinofficial/xzcd/chaincfg"
-	"github.com/zcoinofficial/xzcwallet/internal/prompt"
-	"github.com/zcoinofficial/xzcwallet/waddrmgr"
-	"github.com/zcoinofficial/xzcwallet/walletdb"
+	"github.com/seopub/xzcd/chaincfg"
+	"github.com/seopub/xzcwallet/internal/prompt"
+	"github.com/seopub/xzcwallet/waddrmgr"
+	"github.com/seopub/xzcwallet/walletdb"
 )
 
 const (

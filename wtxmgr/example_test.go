@@ -7,10 +7,10 @@ package wtxmgr_test
 import (
 	"fmt"
 
-	"github.com/zcoinofficial/xzcd/chaincfg"
-	"github.com/zcoinofficial/xzcd/chaincfg/chainhash"
-	"github.com/zcoinofficial/xzcd/wire"
-	"github.com/zcoinofficial/xzcwallet/wtxmgr"
+	"github.com/seopub/xzcd/chaincfg"
+	"github.com/seopub/xzcd/chaincfg/chainhash"
+	"github.com/seopub/xzcd/wire"
+	"github.com/seopub/xzcwallet/wtxmgr"
 )
 
 var (

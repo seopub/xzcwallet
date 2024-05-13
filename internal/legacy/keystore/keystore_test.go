@@ -11,11 +11,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/zcoinofficial/xzcd/btcec"
-	"github.com/zcoinofficial/xzcd/chaincfg"
-	"github.com/zcoinofficial/xzcd/chaincfg/chainhash"
-	"github.com/zcoinofficial/xzcd/txscript"
-	"github.com/zcoinofficial/xzcutil"
+	"github.com/seopub/xzcd/btcec"
+	"github.com/seopub/xzcd/chaincfg"
+	"github.com/seopub/xzcd/chaincfg/chainhash"
+	"github.com/seopub/xzcd/txscript"
+	"github.com/seopub/xzcutil"
 
 	"github.com/davecgh/go-spew/spew"
 )

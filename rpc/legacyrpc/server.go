@@ -20,9 +20,9 @@ import (
 	"time"
 
 	"github.com/btcsuite/websocket"
-	"github.com/zcoinofficial/xzcd/btcjson"
-	"github.com/zcoinofficial/xzcwallet/chain"
-	"github.com/zcoinofficial/xzcwallet/wallet"
+	"github.com/seopub/xzcd/btcjson"
+	"github.com/seopub/xzcwallet/chain"
+	"github.com/seopub/xzcwallet/wallet"
 )
 
 type websocketClient struct {

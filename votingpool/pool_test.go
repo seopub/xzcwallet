@@ -11,11 +11,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/zcoinofficial/xzcutil/hdkeychain"
-	vp "github.com/zcoinofficial/xzcwallet/votingpool"
-	"github.com/zcoinofficial/xzcwallet/waddrmgr"
-	"github.com/zcoinofficial/xzcwallet/walletdb"
-	_ "github.com/zcoinofficial/xzcwallet/walletdb/bdb"
+	"github.com/seopub/xzcutil/hdkeychain"
+	vp "github.com/seopub/xzcwallet/votingpool"
+	"github.com/seopub/xzcwallet/waddrmgr"
+	"github.com/seopub/xzcwallet/walletdb"
+	_ "github.com/seopub/xzcwallet/walletdb/bdb"
 )
 
 func TestLoadPoolAndDepositScript(t *testing.T) {

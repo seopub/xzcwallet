@@ -8,12 +8,12 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/zcoinofficial/xzcd/blockchain"
-	"github.com/zcoinofficial/xzcd/chaincfg"
-	"github.com/zcoinofficial/xzcd/chaincfg/chainhash"
-	"github.com/zcoinofficial/xzcd/wire"
-	xzcutil "github.com/zcoinofficial/xzcutil"
-	"github.com/zcoinofficial/xzcwallet/walletdb"
+	"github.com/seopub/xzcd/blockchain"
+	"github.com/seopub/xzcd/chaincfg"
+	"github.com/seopub/xzcd/chaincfg/chainhash"
+	"github.com/seopub/xzcd/wire"
+	xzcutil "github.com/seopub/xzcutil"
+	"github.com/seopub/xzcwallet/walletdb"
 )
 
 // Block contains the minimum amount of data to uniquely identify any block on

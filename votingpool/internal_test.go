@@ -5,9 +5,9 @@
 package votingpool
 
 import (
-	"github.com/zcoinofficial/xzcd/wire"
-	"github.com/zcoinofficial/xzcwallet/waddrmgr"
-	"github.com/zcoinofficial/xzcwallet/walletdb"
+	"github.com/seopub/xzcd/wire"
+	"github.com/seopub/xzcwallet/waddrmgr"
+	"github.com/seopub/xzcwallet/walletdb"
 )
 
 var TstLastErr = lastErr

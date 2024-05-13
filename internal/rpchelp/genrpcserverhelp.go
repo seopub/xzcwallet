@@ -12,8 +12,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/zcoinofficial/xzcd/btcjson"
-	"github.com/zcoinofficial/xzcwallet/internal/rpchelp"
+	"github.com/seopub/xzcd/btcjson"
+	"github.com/seopub/xzcwallet/internal/rpchelp"
 )
 
 var outputFile = func() *os.File {

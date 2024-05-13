@@ -4,6 +4,6 @@
 
 package main
 
-import "github.com/zcoinofficial/xzcwallet/netparams"
+import "github.com/seopub/xzcwallet/netparams"
 
 var activeNet = &netparams.MainNetParams

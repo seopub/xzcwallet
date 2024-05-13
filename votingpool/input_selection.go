@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/zcoinofficial/xzcd/chaincfg"
-	"github.com/zcoinofficial/xzcd/txscript"
-	xzcutil "github.com/zcoinofficial/xzcutil"
-	"github.com/zcoinofficial/xzcwallet/wtxmgr"
+	"github.com/seopub/xzcd/chaincfg"
+	"github.com/seopub/xzcd/txscript"
+	xzcutil "github.com/seopub/xzcutil"
+	"github.com/seopub/xzcwallet/wtxmgr"
 )
 
 const eligibleInputMinConfirmations = 100

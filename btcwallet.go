@@ -13,9 +13,9 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/zcoinofficial/xzcwallet/chain"
-	"github.com/zcoinofficial/xzcwallet/rpc/legacyrpc"
-	"github.com/zcoinofficial/xzcwallet/wallet"
+	"github.com/seopub/xzcwallet/chain"
+	"github.com/seopub/xzcwallet/rpc/legacyrpc"
+	"github.com/seopub/xzcwallet/wallet"
 )
 
 var (

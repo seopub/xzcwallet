@@ -7,7 +7,7 @@ package zero_test
 import (
 	"testing"
 
-	. "github.com/zcoinofficial/xzcwallet/internal/zero"
+	. "github.com/seopub/xzcwallet/internal/zero"
 )
 
 var (
